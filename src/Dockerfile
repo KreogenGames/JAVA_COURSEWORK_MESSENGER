@@ -4,7 +4,7 @@ VOLUME /tmp
 
 EXPOSE 8080
 
-ARG JAR_FILE=target/auth-service-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=out/artifacts/authentication_service_jar/authentication-service.jar
 
 ADD ${JAR_FILE} app.jar
 
